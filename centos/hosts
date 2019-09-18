@@ -1,6 +1,7 @@
 [kubernetes-master-nodes]
-kubernetes-master.learnitguide.net ansible_host=192.168.2.1
+k8s-master ansible_host=10.203.11.100
 
 [kubernetes-worker-nodes]
-kubernetes-worker1.learnitguide.net ansible_host=192.168.2.2
-kubernetes-worker2.learnitguide.net ansible_host=192.168.2.3
+k8s-worker-1 ansible_host=10.203.11.101
+k8s-worker-2 ansible_host=10.203.11.164
+k8s-worker-3 ansible_host=10.203.11.165
